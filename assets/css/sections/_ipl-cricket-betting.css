@@ -1,0 +1,9 @@
+.cricket-betting__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cricket-betting__slider{
+    display: flex;
+    gap: 2rem;
+}

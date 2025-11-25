@@ -1,0 +1,50 @@
+.toc {
+    margin-bottom: 10rem;
+}
+
+.toc__title{
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.toc__date{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 160%;
+    color: #75767F;
+}
+
+.toc__list {
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    gap: 1.6rem;
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.toc__item{
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 120%;
+
+    text-align: center;
+    background: #F3F4F5;
+    border-radius: 100px;
+}
+
+.toc__item:nth-child(-n+5) {
+    grid-column: span 6;
+}
+
+.toc__item:nth-child(n+6) {
+    grid-column: span 5;
+}
+
+.toc__link {
+    display: block;
+    padding: 2.05rem 0;
+    text-decoration: none;
+    color: #191B23;
+}
