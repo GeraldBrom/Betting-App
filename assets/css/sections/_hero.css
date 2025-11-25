@@ -87,7 +87,6 @@
     z-index: 8;
 }
 
-/* Картинка сверху фона */
 .hero__avatar-wrapper img {
     position: relative;
     width: 60px;
@@ -111,4 +110,74 @@
     white-space: nowrap;
 }
 
+@media (max-width: 430px) {
+    .hero .container {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding-top: 12px;
+        margin-bottom: 40px;
+    }
+
+    .hero__image {
+        order: -1;
+    }
+
+    .hero__title {
+        font-size: 32px;
+        margin-top: 16px;
+    }
+
+    .hero__subtitle {
+        margin-top: 16px;
+        font-size: 16px;
+    }
+
+    .hero__button {
+        margin-top: 24px;
+        padding: 16px 60px;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .hero__social-proof {
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+
+    .hero__social-proof img {
+        width: 48px;
+        height: 48px;
+        margin-left: -8px;
+    }
+
+    .hero__social-proof img:first-child {
+        margin-left: 0;
+    }
+
+    .hero__avatar-wrapper {
+        margin-left: -8px;
+        margin-right: 0;
+    }
+
+    .hero__avatar-bg {
+        width: 48px;
+        height: 48px;
+    }
+
+    .hero__avatar-wrapper img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .hero__social-count {
+        font-size: 12px;
+    }
+
+    .hero__social-text {
+        font-size: 14px;
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+}
 

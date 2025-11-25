@@ -23,7 +23,12 @@
         </div>
 
         <div class="hero__image">
-            <img src="../assets/images/hero/hero.png" alt="Hero" class="hero__img">
+            <picture>
+
+                <source srcset="../assets/images/hero/hero-mobile.png" media="(max-width: 430px)">
+
+                <img src="../assets/images/hero/hero.png" alt="Hero" class="hero__img">
+            </picture>
         </div>
     </div>
 </section>

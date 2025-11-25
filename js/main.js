@@ -15,6 +15,21 @@ const swiperIndian = new Swiper('.ipl-indian__slider', {
         bulletActiveClass: 'ipl-indian--active',
         bulletClass: "ipl-indian__dot",
         bulletElement: 'button'
+    },
+
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 5
+        },
+        768: {
+            slidesPerView: 1,
+            spaceBetween: 5
+        },
+        1024: {
+            slidesPerView: 1,
+            spaceBetween: 5
+        }
     }
 });
 
@@ -32,7 +47,7 @@ const swiperCricket = new Swiper('.cricket-betting__slider', {
     
     breakpoints: {
         320: {
-            slidesPerView: 1,
+            slidesPerView: 'auto',
             spaceBetween: 20
         },
         768: {
@@ -101,5 +116,54 @@ document.addEventListener('DOMContentLoaded', function() {
                 accordionItem.classList.add('active');
             }
         });
+    });
+});
+
+// Бургер-меню
+document.addEventListener('DOMContentLoaded', function() {
+    const burger = document.querySelector('.header__burger');
+    const mobileMenu = document.querySelector('.header__mobile-menu');
+    const overlay = document.querySelector('.header__overlay');
+    const mobileLinks = document.querySelectorAll('.header__mobile-link');
+    const body = document.body;
+
+    // Функция для открытия/закрытия меню
+    function toggleMenu() {
+        burger.classList.toggle('active');
+        mobileMenu.classList.toggle('active');
+        overlay.classList.toggle('active');
+        
+        // Блокируем прокрутку body при открытом меню
+        if (mobileMenu.classList.contains('active')) {
+            body.style.overflow = 'hidden';
+            burger.setAttribute('aria-expanded', 'true');
+        } else {
+            body.style.overflow = '';
+            burger.setAttribute('aria-expanded', 'false');
+        }
+    }
+
+    // Открытие/закрытие по клику на бургер
+    if (burger) {
+        burger.addEventListener('click', toggleMenu);
+    }
+
+    // Закрытие по клику на оверлей
+    if (overlay) {
+        overlay.addEventListener('click', toggleMenu);
+    }
+
+    // Закрытие по клику на ссылку в меню
+    mobileLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            toggleMenu();
+        });
+    });
+
+    // Закрытие по нажатию Escape
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {
+            toggleMenu();
+        }
     });
 });

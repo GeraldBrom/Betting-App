@@ -2,7 +2,12 @@
     <div class="container">
 
         <div class="ipl-indian__image">
-            <img src="../assets/images/indian-premier-league.png" alt="Indian Premier league">
+            <picture>
+
+                <source srcset="../assets/images/indian-premier-league/indian-premier-league-mobile.png" media="(max-width: 430px)">
+
+                <img src="../assets/images/indian-premier-league/indian-premier-league.png" alt="Indian Premier league">
+            </picture>
         </div>
 
         <div class="ipl-indian__content">
@@ -28,17 +33,16 @@
                             </p>
                     </div>
                 </div>
+            </div>
 
-
-                <div class="ipl-indian__nav swiper-navigation">
-                    <button class="ipl-indian__btn swiper-button-prev">
-                        <img src="../assets/images/slider-buttons/left.png" alt="Left arrow">
-                    </button>
-                    <div class="ipl-indian__dots swiper-pagination"></div>
-                    <button class="ipl-indian__btn swiper-button-next">
-                        <img src="../assets/images/slider-buttons/right.png" alt="Right arrow">
-                    </button>
-                </div>
+            <div class="ipl-indian__nav">
+                <button class="ipl-indian__btn swiper-button-prev">
+                    <img src="../assets/images/slider-buttons/left.png" alt="Left arrow">
+                </button>
+                <div class="ipl-indian__dots swiper-pagination"></div>
+                <button class="ipl-indian__btn swiper-button-next">
+                    <img src="../assets/images/slider-buttons/right.png" alt="Right arrow">
+                </button>
             </div>
         </div>
 

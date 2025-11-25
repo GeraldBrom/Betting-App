@@ -7,7 +7,12 @@
 
             <div class="how-download-app__android how-download-app__grid">
                 <div class="app__image">
-                    <img src="../assets/images/how-download-app/android-app.png" alt="Android Download">
+                    <picture>
+
+                        <source srcset="../assets/images/how-download-app/android-app-mobile.png" media="(max-width: 430px)">
+
+                        <img src="../assets/images/how-download-app/android-app.png" alt="Android Download">
+                    </picture>
                 </div>
 
                 <div class="app__content">
@@ -34,7 +39,13 @@
                 </div>
 
                 <div class="app__image">
-                    <img src="../assets/images/how-download-app/ios-app.png" alt="IOS Download">
+                    <picture>
+
+                        <source srcset="../assets/images/how-download-app/ios-app-mobile.png" media="(max-width: 430px)">
+
+                        <img src="../assets/images/how-download-app/ios-app.png" alt="IOS Download">
+
+                    </picture>
                 </div>
             </div>
         </div>

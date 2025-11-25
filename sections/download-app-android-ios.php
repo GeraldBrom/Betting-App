@@ -1,10 +1,10 @@
-<section class="app-main-information" >
+<section class="download-app-android-ios" >
     <div class="container">
-        <div class="app-main-information__content">
-            <h2 class="app-main-information__title">Download IPL win app <br> for Android & IOS</h2>
+        <div class="download-app-android-ios__content">
+            <h2 class="download-app-android-ios__title">Download IPL win app <br> for Android & IOS</h2>
 
-            <div class="app-main-information__wrapper">
-                <div class="app-main-information__grid">
+            <div class="download-app-android-ios__wrapper">
+                <div class="download-app-android-ios__grid">
                 <a href="#" class="company-logo__link">
                     <img src="assets/images/logo-company/huawei.png" alt="Huawei" class="company-logo__img">
                 </a>

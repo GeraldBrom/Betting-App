@@ -60,6 +60,7 @@
     border-radius: 24px;
     flex-shrink: 0;
     margin-right: 0 !important;
+    box-sizing: border-box;
 }
 
 .match-card__location{
@@ -136,11 +137,88 @@
     border-radius: 100px;
     font-size: 18px;
     font-weight: 600;
+    line-height: 120%;
     color: #FFFFFF;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-sizing: border-box;
 }
 
 .match-card__btn:hover{
     background: #E56000;
+}
+
+@media (max-width: 430px) {
+    .cricket-betting {
+        margin-top: 40px;
+    }
+
+    .cricket-betting__header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .cricket-betting__title {
+        font-size: 32px;
+    }
+
+    .cricket-betting__nav {
+        display: none;
+    }
+
+    .cricket-betting__slider {
+        margin-top: 24px;
+    }
+
+    .match-card {
+        width: 320px !important;
+        padding: 24px 20px;
+        box-sizing: border-box;
+    }
+
+    .match-card__location {
+        font-size: 16px;
+    }
+
+    .match-card__datetime {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    .match-card__match {
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+
+    .match-card__team {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .match-card__team-logo {
+        width: 48px;
+        height: 48px;
+    }
+
+    .match-card__team-name {
+        font-size: 16px;
+    }
+
+    .match-card__team-score {
+        font-size: 12px;
+    }
+
+    .match-card__vs {
+        font-size: 18px;
+        align-self: center;
+    }
+
+    .match-card__btn {
+        padding: 16px 24px;
+        font-size: 16px;
+        width: 100%;
+        box-sizing: border-box;
+    }
 }

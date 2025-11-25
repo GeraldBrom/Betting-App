@@ -12,17 +12,35 @@
 
             <div class="app-download__images">
                 <a href="/" class="app-download__link">
-                    <img src="../assets/images/google-Play-Store-badge.png" alt="Download in GooglePlay" class="app-download__badge">
+                    <picture>
+
+                        <source srcset="../assets/images/ipl-app-download/google_Play_Store_badge_EN-mobile.png" media="(max-width: 430px)">
+
+                        <img src="../assets/images/ipl-app-download/google-Play-Store-badge.png" alt="Download in GooglePlay" class="app-download__badge">
+
+                    </picture>
                 </a>
                 <a href="/" class="app-download__link">
-                    <img src="../assets/images/download-on-the-App-Store-Badge.png" alt="Download in AppStore" class="app-download__badge">
+                    <picture>
+
+                        <source srcset="../assets/images/ipl-app-download/download_on_the_App_Store_Badge-mobile.png" media="(max-width: 430px)">
+
+                        <img src="../assets/images/ipl-app-download/download-on-the-App-Store-Badge.png" alt="Download in AppStore" class="app-download__badge">
+
+                    </picture>
                 </a>
             </div>
 
         </div>
 
         <div class="app-download__image">
-            <img src="../assets/images/ipl-app-download.png" alt="Hero" class="app-download__img">
+            <picture>
+
+                <source srcset="../assets/images/ipl-app-download/ipl-app-download-mobile.png" media="(max-width: 430px)">
+
+                <img src="../assets/images/ipl-app-download/ipl-app-download.png" alt="Hero" class="app-download__img">
+
+            </picture>
         </div>
     </div>
 </section>

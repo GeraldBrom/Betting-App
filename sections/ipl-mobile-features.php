@@ -2,7 +2,13 @@
     <div class="container">
 
         <div class="mobile-features__image">
-            <img src="../assets/images/mobile-of-features/mobile-features.png" alt="IPL Mobile App Features">
+             <picture>
+
+                <source srcset="../assets/images/mobile-of-features/mobile-features-adaptive.png" media="(max-width: 430px)">
+
+                <img src="../assets/images/mobile-of-features/mobile-features.png" alt="IPL Mobile App Features">
+
+            </picture>
         </div>
 
         <div class="mobile-features__content">
