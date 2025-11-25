@@ -27,7 +27,7 @@ $items = [
 
             <?php include 'components/accordion.php'; ?>
 
-            <button>Learn More</button>
+            <button class="reasons-download__btn">Learn More</button>
 
         </div>
     </div>

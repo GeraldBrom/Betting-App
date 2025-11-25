@@ -1,6 +1,6 @@
 <div class="accordions">
-    <?php foreach ($items as $item): ?>
-        <div class="accordions__item">
+    <?php foreach ($items as $index => $item): ?>
+        <div class="accordions__item <?php echo $index === 0 ? 'active' : ''; ?>">
             <button class="accordions__button" type="button">
                 <span class="accordions__button-text"><?php echo htmlspecialchars($item['title']); ?></span>
                 <span class="accordions__icon">+</span>

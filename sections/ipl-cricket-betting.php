@@ -1,4 +1,4 @@
-<section class="cricket-betting" id="ipl-cricket-betting">
+<section class="cricket-betting">
     <div class="container">
         <div class="cricket-betting__content">
             <div class="cricket-betting__header">
@@ -10,58 +10,103 @@
                 </div>
             </div>
 
-            <div class="cricket-betting__slider">
+            <div class="cricket-betting__slider swiper">
+                <div class="swiper-wrapper">
 
-                <?php
+                <div class="match-card swiper-slide">
+                    <p class="match-card__location">Rajiv Gandhi International Stadium, Hyderabad</p>
+                    <p class="match-card__datetime">Sunday, May 19 17:30 pm IST</p>
 
-                $matches = [
-                    [
-                        'location' => 'Rajiv Gandhi International Stadium, Hyderabad',
-                        'datetime' => 'Sunday, May 19 17:30 pm IST',
-                        'team1_logo' => 'assets/images/cricket-logo.png',
-                        'team1_name' => 'Sunrisers Hyderabad',
-                        'team1_score' => '(19.1 OV)',
-                        'team2_logo' => 'assets/images/cricket-logo.png',
-                        'team2_name' => 'Rajasthan Royals',
-                        'team2_score' => '(19.1 OV)',
-                    ],
-                    [
-                        'location' => 'Rajiv Gandhi International Stadium, Hyderabad',
-                        'datetime' => 'Sunday, May 19 17:30 pm IST',
-                        'team1_logo' => 'assets/images/cricket-logo.png',
-                        'team1_name' => 'Sunrisers Hyderabad',
-                        'team1_score' => '(19.1 OV)',
-                        'team2_logo' => 'assets/images/cricket-logo.png',
-                        'team2_name' => 'Rajasthan Royals',
-                        'team2_score' => '(19.1 OV)',
-                    ],
-                    [
-                        'location' => 'Rajiv Gandhi International Stadium, Hyderabad',
-                        'datetime' => 'Sunday, May 19 17:30 pm IST',
-                        'team1_logo' => 'assets/images/cricket-logo.png',
-                        'team1_name' => 'Sunrisers Hyderabad',
-                        'team1_score' => '(19.1 OV)',
-                        'team2_logo' => 'assets/images/cricket-logo.png',
-                        'team2_name' => 'Rajasthan Royals',
-                        'team2_score' => '(19.1 OV)',
-                    ],
-                ];
+                    <div class="match-card__match">
+                        <div class="match-card__team">
+                            <img src="../assets/images/cricket-logo.png"
+                                 alt="Sunrisers Hyderabad"
+                                 class="match-card__team-logo">
+                            <div class="match-card__team-info">
+                                <p class="match-card__team-name">Sunrisers Hyderabad</p>
+                                <span class="match-card__team-score">(19.1 OV)</span>
+                            </div>
+                        </div>
 
-                foreach ($matches as $index => $match) {
-                    $location = $match['location'];
-                    $datetime = $match['datetime'];
-                    $team1_logo = $match['team1_logo'];
-                    $team1_name = $match['team1_name'];
-                    $team1_score = $match['team1_score'];
-                    $team2_logo = $match['team2_logo'];
-                    $team2_name = $match['team2_name'];
-                    $team2_score = $match['team2_score'];
-                    $isActive = ($index === 0);
+                        <p class="match-card__vs">VS</p>
 
-                    include 'components/match-card.php';
-                }
-                ?>
+                        <div class="match-card__team">
+                            <img src="../assets/images/cricket-logo.png"
+                                 alt="Rajasthan Royals"
+                                 class="match-card__team-logo">
+                            <div class="match-card__team-info">
+                                <p class="match-card__team-name">Rajasthan Royals</p>
+                                <span class="match-card__team-score">(19.1 OV)</span>
+                            </div>
+                        </div>
+                    </div>
 
+                    <button type="button" class="match-card__btn">Bet Now</button>
+                </div>
+
+                <div class="match-card swiper-slide">
+                    <p class="match-card__location">Rajiv Gandhi International Stadium, Hyderabad</p>
+                    <p class="match-card__datetime">Sunday, May 19 17:30 pm IST</p>
+
+                    <div class="match-card__match">
+                        <div class="match-card__team">
+                            <img src="../assets/images/cricket-logo.png"
+                                 alt="Sunrisers Hyderabad"
+                                 class="match-card__team-logo">
+                            <div class="match-card__team-info">
+                                <p class="match-card__team-name">Sunrisers Hyderabad</p>
+                                <span class="match-card__team-score">(19.1 OV)</span>
+                            </div>
+                        </div>
+
+                        <p class="match-card__vs">VS</p>
+
+                        <div class="match-card__team">
+                            <img src="../assets/images/cricket-logo.png"
+                                 alt="Rajasthan Royals"
+                                 class="match-card__team-logo">
+                            <div class="match-card__team-info">
+                                <p class="match-card__team-name">Rajasthan Royals</p>
+                                <span class="match-card__team-score">(19.1 OV)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="button" class="match-card__btn">Bet Now</button>
+                </div>
+
+                <div class="match-card swiper-slide">
+                    <p class="match-card__location">Rajiv Gandhi International Stadium, Hyderabad</p>
+                    <p class="match-card__datetime">Sunday, May 19 17:30 pm IST</p>
+
+                    <div class="match-card__match">
+                        <div class="match-card__team">
+                            <img src="../assets/images/cricket-logo.png"
+                                 alt="Sunrisers Hyderabad"
+                                 class="match-card__team-logo">
+                            <div class="match-card__team-info">
+                                <p class="match-card__team-name">Sunrisers Hyderabad</p>
+                                <span class="match-card__team-score">(19.1 OV)</span>
+                            </div>
+                        </div>
+
+                        <p class="match-card__vs">VS</p>
+
+                        <div class="match-card__team">
+                            <img src="../assets/images/cricket-logo.png"
+                                 alt="Rajasthan Royals"
+                                 class="match-card__team-logo">
+                            <div class="match-card__team-info">
+                                <p class="match-card__team-name">Rajasthan Royals</p>
+                                <span class="match-card__team-score">(19.1 OV)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="button" class="match-card__btn">Bet Now</button>
+                </div>
+
+                </div>
             </div>
         </div>
     </div>

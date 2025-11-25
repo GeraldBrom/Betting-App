@@ -2,7 +2,7 @@
     <div class="container">
 
         <div class="mobile-features__image">
-            <img src="../assets/images/mobile-features.png" alt="IPL Mobile App Features">
+            <img src="../assets/images/mobile-of-features/mobile-features.png" alt="IPL Mobile App Features">
         </div>
 
         <div class="mobile-features__content">
@@ -18,6 +18,9 @@
                 <li class="mobile-features__item">It offers cricket tips, stats, and predictions.</li>
                 <li class="mobile-features__item">There is customer support for your convenience.</li>
             </ul>
+
+            <button class="mobile-features__btn">Bet Now</button>
+
         </div>
 
     </div>

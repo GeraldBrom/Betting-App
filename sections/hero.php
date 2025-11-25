@@ -10,12 +10,12 @@
             <button class="hero__button">Bet Now</button>
 
             <div class="hero__social-proof">
-                <img src="../assets/images/hero/man_1.png" alt="Eliot">
-                <img src="../assets/images/hero/man_2.png" alt="Erik">
-                <img src="../assets/images/hero/man_3.png" alt="Mihail">
+                <img src="../assets/images/hero/man_1.png" alt="Eliot" class="hero__avatar">
+                <img src="../assets/images/hero/man_2.png" alt="Erik" class="hero__avatar">
+                <img src="../assets/images/hero/man_3.png" alt="Mihail" class="hero__avatar">
                 <div class="hero__avatar-wrapper">
                     <div class="hero__avatar-bg"></div>
-                    <img src="../assets/images/hero/man_4.png" alt="Alex">
+                    <img src="../assets/images/hero/man_4.png" alt="Alex" class="hero__avatar">
                     <span class="hero__social-count">+12k</span>
                 </div>
                 <p class="hero__social-text">12k + People Already Joined IPL Betting <br> Get Started Today !</p>
@@ -23,7 +23,7 @@
         </div>
 
         <div class="hero__image">
-            <img src="../assets/images/hero/hero.png" alt="Hero">
+            <img src="../assets/images/hero/hero.png" alt="Hero" class="hero__img">
         </div>
     </div>
-</section
+</section>

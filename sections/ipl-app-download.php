@@ -11,18 +11,18 @@
             </p>
 
             <div class="app-download__images">
-                <a href="/">
-                    <img src="../assets/images/google-Play-Store-badge.png" alt="Download in GooglePlay">
+                <a href="/" class="app-download__link">
+                    <img src="../assets/images/google-Play-Store-badge.png" alt="Download in GooglePlay" class="app-download__badge">
                 </a>
-                <a href="/">
-                    <img src="../assets/images/download-on-the-App-Store-Badge.png" alt="Download in AppStore">
+                <a href="/" class="app-download__link">
+                    <img src="../assets/images/download-on-the-App-Store-Badge.png" alt="Download in AppStore" class="app-download__badge">
                 </a>
             </div>
 
         </div>
 
         <div class="app-download__image">
-            <img src="../assets/images/ipl-app-download.png" alt="Hero">
+            <img src="../assets/images/ipl-app-download.png" alt="Hero" class="app-download__img">
         </div>
     </div>
-</section
+</section>

@@ -23,7 +23,7 @@ $items = [
 
             <?php include 'components/accordion.php'; ?>
 
-            <button>Learn More</button>
+            <button class="how-use__btn">Learn More</button>
 
         </div>
     </div>

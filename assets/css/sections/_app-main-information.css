@@ -1,0 +1,33 @@
+.app-main-information__title{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 130%;
+    color: #191B23;
+}
+
+.app-main-information__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 32px;
+}
+
+.company-logo__link {
+    display: block;
+    
+    transition: all 0.3s ease;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.company-logo__link:hover {
+    transform: translateY(-5px);
+}
+
+.company-logo__img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
