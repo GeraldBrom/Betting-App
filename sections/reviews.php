@@ -1,4 +1,4 @@
-<section class="reviews">
+<section class="reviews" id="reviews">
     <div class="container">
         <div class="reviews__header">
             <h2 class="reviews__title">IPL Betting App Reviews</h2>
@@ -14,18 +14,18 @@
                 
                 <div class="reviews-card swiper-slide">
                     <div class="reviews-card__image">
-                        <img src="../assets/images/reviews/reviews-man.png" alt="Rajesh K">
+                        <img src="../assets/images/reviews/reviews-man.png" alt="Rajesh K" loading="lazy">
                     </div>
                     
                     <div class="reviews-card__content">
                         <h3 class="reviews-card__name">Rajesh K</h3>
                         
                         <div class="reviews-card__rating">
-                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star">
-                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star">
-                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star">
-                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star">
-                            <img src="../assets/images/reviews/star-empty.png" alt="star" class="reviews-card__star">
+                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star" loading="lazy">
+                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star" loading="lazy">
+                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star" loading="lazy">
+                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star" loading="lazy">
+                            <img src="../assets/images/reviews/star-empty.png" alt="star" class="reviews-card__star" loading="lazy">
                         </div>
                         
                         <p class="reviews-card__text">
@@ -36,18 +36,18 @@
 
                 <div class="reviews-card swiper-slide">
                     <div class="reviews-card__image">
-                        <img src="../assets/images/reviews/reviews-girl.png" alt="Priya">
+                        <img src="../assets/images/reviews/reviews-girl.png" alt="Priya" loading="lazy">
                     </div>
                     
                     <div class="reviews-card__content">
                         <h3 class="reviews-card__name">Priya</h3>
                         
                         <div class="reviews-card__rating">
-                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star">
-                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star">
-                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star">
-                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star">
-                            <img src="../assets/images/reviews/star-empty.png" alt="star" class="reviews-card__star">
+                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star" loading="lazy">
+                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star" loading="lazy">
+                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star" loading="lazy">
+                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star" loading="lazy">
+                            <img src="../assets/images/reviews/star-empty.png" alt="star" class="reviews-card__star" loading="lazy">
                         </div>
                         
                         <p class="reviews-card__text">
@@ -58,18 +58,18 @@
 
                 <div class="reviews-card swiper-slide">
                     <div class="reviews-card__image">
-                        <img src="../assets/images/reviews/reviews-man.png" alt="Rajesh K">
+                        <img src="../assets/images/reviews/reviews-man.png" alt="Rajesh K" loading="lazy">
                     </div>
                     
                     <div class="reviews-card__content">
                         <h3 class="reviews-card__name">Rajesh K</h3>
                         
                         <div class="reviews-card__rating">
-                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star">
-                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star">
-                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star">
-                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star">
-                            <img src="../assets/images/reviews/star-empty.png" alt="star" class="reviews-card__star">
+                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star" loading="lazy">
+                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star" loading="lazy">
+                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star" loading="lazy">
+                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star" loading="lazy">
+                            <img src="../assets/images/reviews/star-empty.png" alt="star" class="reviews-card__star" loading="lazy">
                         </div>
                         
                         <p class="reviews-card__text">
@@ -80,18 +80,18 @@
 
                 <div class="reviews-card swiper-slide">
                     <div class="reviews-card__image">
-                        <img src="../assets/images/reviews/reviews-girl.png" alt="Priya">
+                        <img src="../assets/images/reviews/reviews-girl.png" alt="Priya" loading="lazy">
                     </div>
                     
                     <div class="reviews-card__content">
                         <h3 class="reviews-card__name">Priya</h3>
                         
                         <div class="reviews-card__rating">
-                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star">
-                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star">
-                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star">
-                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star">
-                            <img src="../assets/images/reviews/star-empty.png" alt="star" class="reviews-card__star">
+                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star" loading="lazy">
+                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star" loading="lazy">
+                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star" loading="lazy">
+                            <img src="../assets/images/reviews/star-full.png" alt="star" class="reviews-card__star" loading="lazy">
+                            <img src="../assets/images/reviews/star-empty.png" alt="star" class="reviews-card__star" loading="lazy">
                         </div>
                         
                         <p class="reviews-card__text">

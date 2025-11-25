@@ -1,4 +1,4 @@
-<section class="cricket-betting">
+<section class="cricket-betting" id="ipl-cricket-betting">
     <div class="container">
         <div class="cricket-betting__content">
             <div class="cricket-betting__header">
@@ -21,7 +21,8 @@
                         <div class="match-card__team">
                             <img src="../assets/images/cricket-logo.png"
                                  alt="Sunrisers Hyderabad"
-                                 class="match-card__team-logo">
+                                 class="match-card__team-logo"
+                                 loading="lazy">
                             <div class="match-card__team-info">
                                 <p class="match-card__team-name">Sunrisers Hyderabad</p>
                                 <span class="match-card__team-score">(19.1 OV)</span>
@@ -33,7 +34,8 @@
                         <div class="match-card__team">
                             <img src="../assets/images/cricket-logo.png"
                                  alt="Rajasthan Royals"
-                                 class="match-card__team-logo">
+                                 class="match-card__team-logo"
+                                 loading="lazy">
                             <div class="match-card__team-info">
                                 <p class="match-card__team-name">Rajasthan Royals</p>
                                 <span class="match-card__team-score">(19.1 OV)</span>
@@ -52,7 +54,8 @@
                         <div class="match-card__team">
                             <img src="../assets/images/cricket-logo.png"
                                  alt="Sunrisers Hyderabad"
-                                 class="match-card__team-logo">
+                                 class="match-card__team-logo"
+                                 loading="lazy">
                             <div class="match-card__team-info">
                                 <p class="match-card__team-name">Sunrisers Hyderabad</p>
                                 <span class="match-card__team-score">(19.1 OV)</span>
@@ -64,7 +67,8 @@
                         <div class="match-card__team">
                             <img src="../assets/images/cricket-logo.png"
                                  alt="Rajasthan Royals"
-                                 class="match-card__team-logo">
+                                 class="match-card__team-logo"
+                                 loading="lazy">
                             <div class="match-card__team-info">
                                 <p class="match-card__team-name">Rajasthan Royals</p>
                                 <span class="match-card__team-score">(19.1 OV)</span>
@@ -83,7 +87,8 @@
                         <div class="match-card__team">
                             <img src="../assets/images/cricket-logo.png"
                                  alt="Sunrisers Hyderabad"
-                                 class="match-card__team-logo">
+                                 class="match-card__team-logo"
+                                 loading="lazy">
                             <div class="match-card__team-info">
                                 <p class="match-card__team-name">Sunrisers Hyderabad</p>
                                 <span class="match-card__team-score">(19.1 OV)</span>
@@ -95,7 +100,8 @@
                         <div class="match-card__team">
                             <img src="../assets/images/cricket-logo.png"
                                  alt="Rajasthan Royals"
-                                 class="match-card__team-logo">
+                                 class="match-card__team-logo"
+                                 loading="lazy">
                             <div class="match-card__team-info">
                                 <p class="match-card__team-name">Rajasthan Royals</p>
                                 <span class="match-card__team-score">(19.1 OV)</span>

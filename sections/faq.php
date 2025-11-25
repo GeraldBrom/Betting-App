@@ -19,7 +19,7 @@ $items = [
 ];
 ?>
 
-<section class="faq" id="reasons-to-download">
+<section class="faq" id="faq">
     <div class="container">
         <div class="faq__content">
 

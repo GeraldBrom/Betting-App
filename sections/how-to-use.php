@@ -15,7 +15,7 @@ $items = [
 ];
 ?>
 
-<section class="how-use" id="reasons-to-download">
+<section class="how-use" id="how-to-use">
     <div class="container">
         <div class="how-use__content">
 

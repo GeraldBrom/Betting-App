@@ -142,3 +142,63 @@
         gap: 12px;
     }
 }
+
+@media (max-width: 340px) {
+    .app-download {
+        margin-top: 32px;
+    }
+
+    .app-download .container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 12px;
+    }
+
+    .app-download__image {
+        order: -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app-download__image img,
+    .app-download__image picture {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .app-download__content {
+        gap: 12px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .app-download__title {
+        font-size: 28px;
+        line-height: 120%;
+    }
+
+    .app-download__subtitle {
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    .app-download__images {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .app-download__link {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .app-download__badge {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}

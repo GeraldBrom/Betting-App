@@ -13,27 +13,27 @@
                 <ul class="header__list">
 
                     <li class="header__item">
-                        <a href="#" class="header__link">Home</a>
+                        <a href="#hero" class="header__link">Home</a>
                     </li>
 
                     <li class="header__item">
-                        <a href="#" class="header__link">IPL Download</a>
+                        <a href="#ipl-app-download" class="header__link">IPL Download</a>
                     </li>
 
                     <li class="header__item">
-                        <a href="#" class="header__link">Bonus</a>
+                        <a href="#welcome-bonus" class="header__link">Bonus</a>
                     </li>
 
                     <li class="header__item">
-                        <a href="#" class="header__link">How to use?</a>
+                        <a href="#how-to-use" class="header__link">How to use?</a>
                     </li>
 
                     <li class="header__item">
-                        <a href="#" class="header__link">Reviews</a>
+                        <a href="#reviews" class="header__link">Reviews</a>
                     </li>
 
                     <li class="header__item">
-                        <a href="#" class="header__link">FAQ</a>
+                        <a href="#faq" class="header__link">FAQ</a>
                     </li>
                 </ul>
             </nav>
@@ -57,22 +57,22 @@
         <nav class="header__mobile-nav" aria-label="Mobile navigation">
             <ul class="header__mobile-list">
                 <li class="header__mobile-item">
-                    <a href="#" class="header__mobile-link">Home</a>
+                    <a href="#hero" class="header__mobile-link">Home</a>
                 </li>
                 <li class="header__mobile-item">
-                    <a href="#" class="header__mobile-link">IPL Download</a>
+                    <a href="#ipl-app-download" class="header__mobile-link">IPL Download</a>
                 </li>
                 <li class="header__mobile-item">
-                    <a href="#" class="header__mobile-link">Bonus</a>
+                    <a href="#welcome-bonus" class="header__mobile-link">Bonus</a>
                 </li>
                 <li class="header__mobile-item">
-                    <a href="#" class="header__mobile-link">How to use?</a>
+                    <a href="#how-to-use" class="header__mobile-link">How to use?</a>
                 </li>
                 <li class="header__mobile-item">
-                    <a href="#" class="header__mobile-link">Reviews</a>
+                    <a href="#reviews" class="header__mobile-link">Reviews</a>
                 </li>
                 <li class="header__mobile-item">
-                    <a href="#" class="header__mobile-link">FAQ</a>
+                    <a href="#faq" class="header__mobile-link">FAQ</a>
                 </li>
             </ul>
             <button class="header__mobile-button" type="button">

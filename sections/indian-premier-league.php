@@ -1,4 +1,4 @@
-<section class="ipl-indian">
+<section class="ipl-indian" id="indian-premier-league">
     <div class="container">
 
         <div class="ipl-indian__image">
@@ -6,7 +6,7 @@
 
                 <source srcset="../assets/images/indian-premier-league/indian-premier-league-mobile.png" media="(max-width: 430px)">
 
-                <img src="../assets/images/indian-premier-league/indian-premier-league.png" alt="Indian Premier league">
+                <img src="../assets/images/indian-premier-league/indian-premier-league.png" alt="Indian Premier league" loading="lazy">
             </picture>
         </div>
 
@@ -37,11 +37,11 @@
 
             <div class="ipl-indian__nav">
                 <button class="ipl-indian__btn swiper-button-prev">
-                    <img src="../assets/images/slider-buttons/left.png" alt="Left arrow">
+                    <img src="../assets/images/slider-buttons/left.png" alt="Left arrow" loading="lazy">
                 </button>
                 <div class="ipl-indian__dots swiper-pagination"></div>
                 <button class="ipl-indian__btn swiper-button-next">
-                    <img src="../assets/images/slider-buttons/right.png" alt="Right arrow">
+                    <img src="../assets/images/slider-buttons/right.png" alt="Right arrow" loading="lazy">
                 </button>
             </div>
         </div>

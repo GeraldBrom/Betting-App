@@ -1,4 +1,4 @@
-<section class="mobile-features">
+<section class="mobile-features" id="ipl-mobile-features">
     <div class="container">
 
         <div class="mobile-features__image">
@@ -6,7 +6,7 @@
 
                 <source srcset="../assets/images/mobile-of-features/mobile-features-adaptive.png" media="(max-width: 430px)">
 
-                <img src="../assets/images/mobile-of-features/mobile-features.png" alt="IPL Mobile App Features">
+                <img src="../assets/images/mobile-of-features/mobile-features.png" alt="IPL Mobile App Features" loading="lazy">
 
             </picture>
         </div>

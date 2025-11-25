@@ -1,4 +1,4 @@
-<section class="hero">
+<section class="hero" id="hero">
     <div class="container">
         <div class="hero__content">
             <h1 class="hero__title">Best IPL Betting App</h1>

@@ -1,4 +1,4 @@
-<section class="how-download-app">
+<section class="how-download-app" id="ipl-prediction-app">
     <div class="container">
         <div class="how-download-app__content">
             <h2 class="how-download-app__title">How to download the <br>IPL prediction app?</h2>
@@ -11,7 +11,7 @@
 
                         <source srcset="../assets/images/how-download-app/android-app-mobile.png" media="(max-width: 430px)">
 
-                        <img src="../assets/images/how-download-app/android-app.png" alt="Android Download">
+                        <img src="../assets/images/how-download-app/android-app.png" alt="Android Download" loading="lazy">
                     </picture>
                 </div>
 
@@ -43,7 +43,7 @@
 
                         <source srcset="../assets/images/how-download-app/ios-app-mobile.png" media="(max-width: 430px)">
 
-                        <img src="../assets/images/how-download-app/ios-app.png" alt="IOS Download">
+                        <img src="../assets/images/how-download-app/ios-app.png" alt="IOS Download" loading="lazy">
 
                     </picture>
                 </div>

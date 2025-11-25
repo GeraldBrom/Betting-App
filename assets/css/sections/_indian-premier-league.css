@@ -30,6 +30,7 @@
     height: auto;
     display: block;
     object-fit: contain;
+    margin-right: 80px;
 }
 
 .ipl-indian__content {
@@ -276,6 +277,7 @@
     .ipl-indian__image picture {
         width: 100%;
         max-width: 100%;
+        margin-right: 0;
     }
 
     .ipl-indian__content {

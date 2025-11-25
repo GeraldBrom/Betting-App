@@ -12,7 +12,7 @@
             <div class="welcome-bonus__blocks">
                 
                 <div class="welcome-bonus__item">
-                    <img src="assets/images/free-bet.png" alt="Free Bet on Registration" class="welcome-bonus__item-icon">
+                    <img src="assets/images/free-bet.png" alt="Free Bet on Registration" class="welcome-bonus__item-icon" loading="lazy">
                     <h3 class="welcome-bonus__item-title">Free Bet on Registration</h3>
                     <p class="welcome-bonus__item-text">
                         Get started with a free bet worth $10 upon registration! No deposit required. Start winning today!
@@ -20,7 +20,7 @@
                 </div>
 
                 <div class="welcome-bonus__item">
-                    <img src="assets/images/deposit.png" alt="Deposit of 100 dollars" class="welcome-bonus__item-icon">
+                    <img src="assets/images/deposit.png" alt="Deposit of 100 dollars" class="welcome-bonus__item-icon" loading="lazy">
                     <h3 class="welcome-bonus__item-title">Deposit of 100 dollars</h3>
                     <p class="welcome-bonus__item-text">
                         Make your first deposit of $100 and unlock a 100% match bonus. Boost your money into IPL betting action!
@@ -28,7 +28,7 @@
                 </div>
 
                 <div class="welcome-bonus__item">
-                    <img src="assets/images/bonus.png" alt="50% Bonus on First Deposit" class="welcome-bonus__item-icon">
+                    <img src="assets/images/bonus.png" alt="50% Bonus on First Deposit" class="welcome-bonus__item-icon" loading="lazy">
                     <h3 class="welcome-bonus__item-title">50% Bonus on First Deposit</h3>
                     <p class="welcome-bonus__item-text">
                         Enjoy a 50% bonus on your initial deposit up to $200. Maximize your first bet of IPL betting!

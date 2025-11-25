@@ -1,4 +1,4 @@
-<section class="app-download">
+<section class="app-download" id="ipl-app-download">
     <div class="container">
         <div class="app-download__content">
             <h1 class="app-download__title">IPL Win Betting App Download</h1>
@@ -16,7 +16,7 @@
 
                         <source srcset="../assets/images/ipl-app-download/google_Play_Store_badge_EN-mobile.png" media="(max-width: 430px)">
 
-                        <img src="../assets/images/ipl-app-download/google-Play-Store-badge.png" alt="Download in GooglePlay" class="app-download__badge">
+                        <img src="../assets/images/ipl-app-download/google-Play-Store-badge.png" alt="Download in GooglePlay" class="app-download__badge" loading="lazy">
 
                     </picture>
                 </a>
@@ -25,7 +25,7 @@
 
                         <source srcset="../assets/images/ipl-app-download/download_on_the_App_Store_Badge-mobile.png" media="(max-width: 430px)">
 
-                        <img src="../assets/images/ipl-app-download/download-on-the-App-Store-Badge.png" alt="Download in AppStore" class="app-download__badge">
+                        <img src="../assets/images/ipl-app-download/download-on-the-App-Store-Badge.png" alt="Download in AppStore" class="app-download__badge" loading="lazy">
 
                     </picture>
                 </a>
@@ -38,7 +38,7 @@
 
                 <source srcset="../assets/images/ipl-app-download/ipl-app-download-mobile.png" media="(max-width: 430px)">
 
-                <img src="../assets/images/ipl-app-download/ipl-app-download.png" alt="Hero" class="app-download__img">
+                <img src="../assets/images/ipl-app-download/ipl-app-download.png" alt="Hero" class="app-download__img" loading="lazy">
 
             </picture>
         </div>

@@ -1,4 +1,4 @@
-<section class="cricket-information">
+<section class="cricket-information" id="main-information">
     <div class="container">
         <div class="cricket-information__content">
             <h2 class="cricket-information__title">Cricket betting App main information</h2>
