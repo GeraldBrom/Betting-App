@@ -3,7 +3,8 @@
         <div class="app-main-information__content">
             <h2 class="app-main-information__title">Download IPL win app <br> for Android & IOS</h2>
 
-            <div class="app-main-information__grid">
+            <div class="app-main-information__wrapper">
+                <div class="app-main-information__grid">
                 <a href="#" class="company-logo__link">
                     <img src="assets/images/logo-company/huawei.png" alt="Huawei" class="company-logo__img">
                 </a>
@@ -28,6 +29,7 @@
                 <a href="#" class="company-logo__link">
                     <img src="assets/images/logo-company/htc.png" alt="HTC" class="company-logo__img">
                 </a>
+                </div>
             </div>
 
         </div>
