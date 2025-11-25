@@ -31,8 +31,20 @@ body {
     margin: 0 auto;
 }
 
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 24px;
+    }
+}
+
 @media screen and (max-width: 430px) {
     .container {
-        padding: 0 32px;
+        padding: 0 16px;
     }
 }

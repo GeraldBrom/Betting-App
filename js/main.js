@@ -20,11 +20,18 @@ const swiperIndian = new Swiper('.ipl-indian__slider', {
     breakpoints: {
         320: {
             slidesPerView: 1,
-            spaceBetween: 5
+            spaceBetween: 5,
+            allowTouchMove: true
+        },
+        431: {
+            slidesPerView: 1,
+            spaceBetween: 5,
+            allowTouchMove: true
         },
         768: {
             slidesPerView: 1,
-            spaceBetween: 5
+            spaceBetween: 5,
+            allowTouchMove: true
         },
         1024: {
             slidesPerView: 1,
@@ -79,7 +86,11 @@ const swiperReviews = new Swiper('.reviews__slider', {
     
     breakpoints: {
         320: {
-            slidesPerView: 1,
+            slidesPerView: 'auto',
+            spaceBetween: 20
+        },
+        431: {
+            slidesPerView: 'auto',
             spaceBetween: 20
         },
         768: {
